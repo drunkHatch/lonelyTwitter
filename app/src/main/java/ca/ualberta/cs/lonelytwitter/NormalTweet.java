@@ -18,9 +18,4 @@ public class NormalTweet extends Tweet {
     public Boolean isImportant() {
         return Boolean.FALSE;
     }
-
-    public String .toString(){
-        return date.toString() + "|" + message;
-    }
 }
-
